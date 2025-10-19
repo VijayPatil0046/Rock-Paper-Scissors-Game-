@@ -79,3 +79,26 @@ modeBtn.addEventListener('click',() =>{
     body.classList.add("lightModes");
   }
 });
+
+let resultBtn = document.querySelector("#result");
+
+resultBtn.addEventListener("click",() =>{
+    if(userScore > compScore ){
+        msg.innerText = "You won!";
+        msg.style.backgroundColor = "green"; 
+       
+    }
+    else if (userScore < compScore){
+        msg.innerText = "Computer won!";
+        msg.style.backgroundColor = "red";
+        
+    }
+    else{
+        msg.innerText = "It's draw";
+        msg.style.backgroundColor = "#081b31";
+    }
+    userScore =0;
+    compScore = 0;
+    userPara.innerText = userScore;
+    compPara.innerText = compScore;
+})

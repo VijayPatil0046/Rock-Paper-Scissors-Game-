@@ -4,7 +4,7 @@
     text-align: center;
 }
 h1{
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 .choice{
@@ -22,7 +22,7 @@ h1{
 }
 
 .choices{
-    padding-top: 5rem;
+    padding-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +40,7 @@ img{
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
     font-size: 2rem;
 }
 
@@ -97,4 +97,16 @@ body {
   background-color: #314675;      
 }
 
+.end{
+    margin-top: 2rem;
+}
 
+#result{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #081b31;
+    color: white;
+    cursor: pointer;
+}
